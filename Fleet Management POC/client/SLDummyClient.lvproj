@@ -12,7 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ConnectedStatusToSLServer.vi" Type="VI" URL="../ConnectedStatusToSLServer.vi"/>
 		<Item Name="DummyDataSimulation.vi" Type="VI" URL="../DummyDataSimulation.vi"/>
-		<Item Name="LoggingState.vi" Type="VI" URL="../../../client/LoggingState.vi"/>
+		<Item Name="LoggingState.vi" Type="VI" URL="../LoggingState.vi"/>
 		<Item Name="ProgressDataAnalyzer.vi" Type="VI" URL="../ProgressDataAnalyzer.vi"/>
 		<Item Name="StateGPSUpdate.ctl" Type="VI" URL="../StateGPSUpdate.ctl"/>
 		<Item Name="StateStartTimeUpdate.ctl" Type="VI" URL="../StateStartTimeUpdate.ctl"/>
