@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="81C6B20F0C2C32575DE8EC70A504D5C2DDDDDAAA80EEF3DB28A667C7CD260E60BD6FC9A5C220086415512129B3CE9A8A7AFACD53DE0FA1B736AE31E8C330C181" Timestamp="1D68BED0C1787F3" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@b366d1cc338d411394909e08ab129ef7" Id="b939f20a9f9d43959677fb2d9147b83e" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::MessageDataCluster.gtype" />
+			<TypeDefinitionTarget TargetName="GoogleMap::Marker::marker reference.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="74e6e3cb20e84e009bc23a6e729ad953" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="ac16f5cb7a5e4106972814361223b838" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4be459541b094a2aa8436455d8b3d4c8" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@b366d1cc338d411394909e08ab129ef7" Id="50bff404b2fa42d2bfeb9afdb0987607" Name="Cluster">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>
+						<Cluster>
+							<Field1>
+								<Cluster>
+									<Field1>0x0</Field1>
+									<Field2>0x0</Field2>
+									<Field3>""</Field3>
+								</Cluster>
+							</Field1>
+							<Field2>
+								<Cluster>
+									<Field1>""</Field1>
+									<Field2>""</Field2>
+								</Cluster>
+							</Field2>
+							<Field3>0x0_0x0_0x0_False_</Field3>
+						</Cluster>
+					</Field1>
+					<Field2>0_</Field2>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::MessageDataCluster.gtype" />
+				<TypeDefinitionTarget TargetName="GoogleMap::Marker::marker reference.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="fca0b26afef64efbab2835154f69ca4b" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="2fb29ffb3ece4eaca228193017fe380d" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="eea9bd00e9e34135a4cc46d776ef0203" Name="ClientDataCluster.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="18bfc0389e734f519f1300c2ab39f765" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="19cc53a444a249189092093042383f1f" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@b366d1cc338d411394909e08ab129ef7" Height="[float]708" Id="77d5295e21b1403f901cb14fcefd6da2" Label="[UIModel]c845d8fdbe694d19ab64c5dd70e46df4" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=50bff404b2fa42d2bfeb9afdb0987607}" Width="[float]147" xmlns="http://www.ni.com/PanelCommon">
+						<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]ClientData" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@6a6ed164360b4a0cbb62f719803cbdc0" Height="[float]584" Id="493ed44c783a41c689bf23923afb3104" IsTabStop="[bool]True" Label="[UIModel]249ad379cc5b4a4ebd04a90687683b6e" LabelLinked="[bool]True" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=ClientData}" Width="[float]131" p7:ControlDefinitionChecksum="uxNUH6etV5XRDNaB2SgRFRy5JQ3wIdrWbXH/+xsA5pc=" xmlns:p7="http://www.ni.com/PanelCommon">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::MessageDataCluster.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<p7:Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@992a7a30cd984ee1b35cfb4dd2efee9f" Height="[float]164" Id="a254754fcc44415c9b126bf382138034" Label="[UIModel]5a11ecf0bfce42918ca115963a2e2a0a" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=GPS}" Width="[float]88">
+								<NumericText BaseName="[string]Numeric" Height="[float]24" Id="4603363e0ff2490fbc92b0d3719ff859" Label="[UIModel]40c1cdae0da045de8e5ce0c8976b92c1" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Latitude}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="40c1cdae0da045de8e5ce0c8976b92c1" LabelOwner="[UIModel]4603363e0ff2490fbc92b0d3719ff859" Left="[float]4" Text="[string]Latitude" Top="[float]4" Width="[float]43" />
+								<NumericText BaseName="[string]Numeric" Height="[float]24" Id="e690befe462a4eb7917c12491d81ce1b" Label="[UIModel]e90d4e4472a947269aad43932c4d4621" Left="[float]4" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Longitude}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="e90d4e4472a947269aad43932c4d4621" LabelOwner="[UIModel]e690befe462a4eb7917c12491d81ce1b" Left="[float]4" Text="[string]Longitude" Top="[float]56" Width="[float]54" />
+								<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="11ce88be9be04e758d316387468f81f0" Label="[UIModel]7af66260721640c08b753db1ca070755" Left="[float]4" TabIndex="[int]2" Text="{ClusterBinding FieldName=Timestamp}" Top="[float]128" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="7af66260721640c08b753db1ca070755" LabelOwner="[UIModel]11ce88be9be04e758d316387468f81f0" Left="[float]4" Text="[string]Timestamp" Top="[float]108" Width="[float]58" />
+							</p7:Cluster>
+							<p7:Label Height="[float]16" Id="5a11ecf0bfce42918ca115963a2e2a0a" LabelOwner="[UIModel]a254754fcc44415c9b126bf382138034" Left="[float]4" Text="[string]GPS" Top="[float]4" Width="[float]21" />
+							<p7:Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@6b755e320f2f4dd6a6cc14b33519b1b9" Height="[float]112" Id="1f06dc67b729447f8d7cf892da18d6b2" Label="[UIModel]6307676431f841b5b1489954a534a385" Left="[float]4" TabIndex="[int]1" Top="[float]216" Value="{ClusterBinding FieldName=SystemLinkClientInfo}" Width="[float]88">
+								<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="a8989773813042528698ed0e4fa5ac02" Label="[UIModel]4a01cffb18b547e19e0e28a1c497056d" Left="[float]4" TabIndex="[int]0" Text="{ClusterBinding FieldName=TargetName}" Top="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="4a01cffb18b547e19e0e28a1c497056d" LabelOwner="[UIModel]a8989773813042528698ed0e4fa5ac02" Left="[float]4" Text="[string]TargetName" Top="[float]4" Width="[float]64" />
+								<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="fb0a73707aac432e8a3b80efb72f33bd" Label="[UIModel]86edf3aec3584758ae3270087e3a77b5" Left="[float]4" TabIndex="[int]1" Text="{ClusterBinding FieldName=MinionID}" Top="[float]76" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="86edf3aec3584758ae3270087e3a77b5" LabelOwner="[UIModel]fb0a73707aac432e8a3b80efb72f33bd" Left="[float]4" Text="[string]MinionID" Top="[float]56" Width="[float]49" />
+							</p7:Cluster>
+							<p7:Label Height="[float]16" Id="6307676431f841b5b1489954a534a385" LabelOwner="[UIModel]1f06dc67b729447f8d7cf892da18d6b2" Left="[float]4" Text="[string]SystemLinkClientInfo" Top="[float]196" Width="[float]110" />
+							<p7:Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@ac062cd2e5764f76b5264e2b238f706a" Height="[float]216" Id="6708b70dedb94068ab30c98c9e9fb489" Label="[UIModel]a2db1707555f4b53b10457857922c3d3" Left="[float]4" TabIndex="[int]2" Top="[float]356" Value="{ClusterBinding FieldName=CampaignData}" Width="[float]115">
+								<NumericText BaseName="[string]Numeric" Height="[float]24" Id="4a029985ef9474dab0fb1d679d28882" Label="[UIModel]a188aceca8644d04ae00fbab7ba72ff2" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=DistanceTraveled}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="a188aceca8644d04ae00fbab7ba72ff2" LabelOwner="[UIModel]4a029985ef9474dab0fb1d679d28882" Left="[float]4" Text="[string]DistanceTraveled" Top="[float]4" Width="[float]89" />
+								<NumericText BaseName="[string]Numeric" Height="[float]24" Id="24942f29593341458d5e2cd4ff406b42" Label="[UIModel]3696f8dd7f60478ca2873f4af16a5c52" Left="[float]4" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=CampaignProgress}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="3696f8dd7f60478ca2873f4af16a5c52" LabelOwner="[UIModel]24942f29593341458d5e2cd4ff406b42" Left="[float]4" Text="[string]CampaignProgress" Top="[float]56" Width="[float]99" />
+								<NumericText BaseName="[string]Numeric" Height="[float]24" Id="a2acd3aabfd54521b9936eca45a95125" Label="[UIModel]5c51ba08a66b4e2cab2676b06a03a90b" Left="[float]4" TabIndex="[int]2" Top="[float]128" Value="{ClusterBinding FieldName=Speed}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="5c51ba08a66b4e2cab2676b06a03a90b" LabelOwner="[UIModel]a2acd3aabfd54521b9936eca45a95125" Left="[float]4" Text="[string]Speed" Top="[float]108" Width="[float]33" />
+								<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="58fcf7d4141e463296353cdf4587ebf9" IsReadOnly="[bool]False" Label="[UIModel]e32870f82c18405cbc41d34a4111b60d" Left="[float]4" Shape="[LEDShape]Square" TabIndex="[int]3" Top="[float]180" TrueContent="[string]On" Value="{ClusterBinding FieldName=Moving}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="e32870f82c18405cbc41d34a4111b60d" LabelOwner="[UIModel]58fcf7d4141e463296353cdf4587ebf9" Left="[float]4" Text="[string]Moving" Top="[float]160" Width="[float]40" />
+							</p7:Cluster>
+							<p7:Label Height="[float]16" Id="a2db1707555f4b53b10457857922c3d3" LabelOwner="[UIModel]6708b70dedb94068ab30c98c9e9fb489" Left="[float]4" Text="[string]CampaignData" Top="[float]336" Width="[float]78" />
+						</Cluster>
+						<Label Height="[float]16" Id="249ad379cc5b4a4ebd04a90687683b6e" LabelOwner="[UIModel]493ed44c783a41c689bf23923afb3104" Left="[float]4" Text="[string]ClientData" Top="[float]4" Width="[float]55" />
+						<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@55bb52c641234bcdb3fb567a4f25826c" Height="[float]60" Id="be00ab7a1b374ad1bbf8ea4d485c83ac" Label="[UIModel]a98d1df1ba074143830466d81dbf2a59" Left="[float]4" TabIndex="[int]1" Top="[float]636" Value="{ClusterBinding FieldName=References}" Width="[float]71">
+							<OpaqueRefnum BaseName="[string]marker reference" Height="[float]24" Id="ed6ed88022b742fcbcb0a39888bf89ae" Label="[UIModel]786df19ef1c146c0826902d83d8a86cb" Left="[float]4" RefnumType="[Type]@3f2d08bd3e51432fbd22ad686211d57f" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=MarkerRef}" Width="[float]24" p8:ControlDefinitionChecksum="LV2PfQw68yQF6Zbql8Ikb0NcDiIMDRjzbePUO9/AF5k=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="GoogleMap::Marker::marker reference.gtype::ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+							</OpaqueRefnum>
+							<Label Height="[float]16" Id="786df19ef1c146c0826902d83d8a86cb" LabelOwner="[UIModel]ed6ed88022b742fcbcb0a39888bf89ae" Left="[float]4" Text="[string]MarkerRef" Top="[float]4" Width="[float]55" />
+						</Cluster>
+						<Label Height="[float]16" Id="a98d1df1ba074143830466d81dbf2a59" LabelOwner="[UIModel]be00ab7a1b374ad1bbf8ea4d485c83ac" Left="[float]4" Text="[string]References" Top="[float]616" Width="[float]58" />
+					</Cluster>
+					<Label Height="[float]16" Id="c845d8fdbe694d19ab64c5dd70e46df4" LabelOwner="[UIModel]77d5295e21b1403f901cb14fcefd6da2" Left="[float]100" Text="[string]Cluster" Top="[float]80" Width="[float]37" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="b366d1cc338d411394909e08ab129ef7">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="ClientData" DataType="@6a6ed164360b4a0cbb62f719803cbdc0" />
+					<Field FieldAccessPolicy="ReadWrite" Name="References" DataType="@55bb52c641234bcdb3fb567a4f25826c" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6a6ed164360b4a0cbb62f719803cbdc0">
+			<Attributed AttributedType="@b6b09a42a4eb46efbc0b37f713499529">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]DashboardUI::TypeDefs" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="992a7a30cd984ee1b35cfb4dd2efee9f">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Latitude" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Longitude" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Timestamp" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6b755e320f2f4dd6a6cc14b33519b1b9">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="TargetName" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="MinionID" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ac062cd2e5764f76b5264e2b238f706a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="DistanceTraveled" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="CampaignProgress" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Speed" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Moving" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="55bb52c641234bcdb3fb567a4f25826c">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="MarkerRef" DataType="@3f2d08bd3e51432fbd22ad686211d57f" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3f2d08bd3e51432fbd22ad686211d57f">
+			<Attributed AttributedType="@204fe1c253f1406dbeeb54917596c229">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]GoogleMap::Marker" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b6b09a42a4eb46efbc0b37f713499529">
+			<Typedef TypedefName="MessageDataCluster.gtype" UnderlyingType="@cff1df5317f341ffbfe7a518d899a367" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="204fe1c253f1406dbeeb54917596c229">
+			<Typedef TypedefName="marker reference.gtype" UnderlyingType="@fc5abbec8a9d49caa9c6c0052a9532cc" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cff1df5317f341ffbfe7a518d899a367">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="GPS" DataType="@992a7a30cd984ee1b35cfb4dd2efee9f" />
+					<Field FieldAccessPolicy="ReadWrite" Name="SystemLinkClientInfo" DataType="@6b755e320f2f4dd6a6cc14b33519b1b9" />
+					<Field FieldAccessPolicy="ReadWrite" Name="CampaignData" DataType="@ac062cd2e5764f76b5264e2b238f706a" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="fc5abbec8a9d49caa9c6c0052a9532cc">
+			<Attributed AttributedType="@56d53ab649e6404299b51e82c31760af">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="56d53ab649e6404299b51e82c31760af">
+			<Composite Id="1" Name="NI.JavaScriptReference" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

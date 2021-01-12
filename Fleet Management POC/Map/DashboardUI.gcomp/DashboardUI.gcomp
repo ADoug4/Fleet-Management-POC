@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1216A3E212D58675D91F2D4859EECB075E4FA79055BD6EA810C3E3F5D1F9C76220CAF00F70C0842172923F28FE3A9964FDCE2EC937978370666FB3DFEFA8B66F" Timestamp="1D69A5F73151329" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="18ffb6bd6485435b96471fc04aa00933" RootNamespaceId="a39423237bd445c9acdbb736626f2a96" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="ca548fc3647c42cd9b32f53b5e7cbadf" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="fd2625abcd0241ee8992bade73418c73" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="7d46698d9620457899538878b3abcf5c" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="57674278037f4d9b87cb9a25ce8b2906" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="152b38773b824bdcb224b8ff409da876" Name="Configuration1">
+			<CompilerSymbolTable Id="1d80e0bcd8144257aa3292d9ee7a663c" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="98ab1e612a6e4a5ba710f71e6d0130b2" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="ca3258f7aef4c1e87dfa8c61f462d88" Id="fc9457d58d174fec871fdd67fa0ce630" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="657d8d684a934ef0af3ad95eaee76600" Id="25ea429d41284869b6c679dc56221411" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="63eb1f81a1fc46f2aa9590ae1eeab244" Id="5c93c0ff5d784a74b223f39b3d5b2f80" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="90163feb386048bd97a3251f405a1992" Id="5373b6658944159d3d5d66630ec6bf" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="6d2f0ea4fa8f4006b567e28a587ffea5" Id="174aae9bf3ce4e84a0cd247d288e2628" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="34b91a011d64525b9bef84d3c0b926b" Id="c2c58c6825fe48d4a391d9307fc2b7e2" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d3db69b3e1448d2a6dac356a6b31c0c" Id="37db5489218e4c00b727655b01b79d85" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="46f896ec827147bfa95a580e4c914ae5" Id="a0c0376797f342de9405da199677807c" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9ba0b80717bf4e2ba0b6b0f2bb248678" Id="3e722d335c564e2a8b93fc286e9e5a62" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="72dceac3213642a5974dcadb845781a9" Id="9897d18ad824ac79e92e43018c7380f" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="fc46738f63424da2cdc800be33e84d" Id="d76ffd8602fc477b8e64a76cfdc210de" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="20226dcef830436ebedeb8ba2a81d735" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="65be98ae4d484d9eb01384e536d31cc4" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="1a62334065954b71b5400591fb04e9e6" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a39423237bd445c9acdbb736626f2a96" Name="DashboardUI">
+				<SourceFileReference Id="ca3258f7aef4c1e87dfa8c61f462d88" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dashboard.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Dashboard.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="90492c3c626548b9b421b6ac558bb0cb" Name="Images">
+					<FileReference Bindings=".jpg" Id="657d8d684a934ef0af3ad95eaee76600" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="frontcam.jpg" StoragePath="Images\frontcam.jpg" />
+					<FileReference Bindings=".png" Id="63eb1f81a1fc46f2aa9590ae1eeab244" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="wemding_l.PNG" StoragePath="Images\wemding_l.PNG" />
+					<FileReference Bindings=".png" Id="90163feb386048bd97a3251f405a1992" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="prague_l.PNG" StoragePath="Images\prague_l.PNG" />
+					<FileReference Bindings=".png" Id="6d2f0ea4fa8f4006b567e28a587ffea5" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="bietigheim_l.PNG" StoragePath="Images\bietigheim_l.PNG" />
+					<FileReference Bindings=".png" Id="34b91a011d64525b9bef84d3c0b926b" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="wemding.PNG" StoragePath="Images\wemding.PNG" />
+					<FileReference Bindings=".png" Id="d3db69b3e1448d2a6dac356a6b31c0c" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="prague.PNG" StoragePath="Images\prague.PNG" />
+					<FileReference Bindings=".png" Id="46f896ec827147bfa95a580e4c914ae5" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="bietigheim.PNG" StoragePath="Images\bietigheim.PNG" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="c9c719cde69242cf9e9c96e2edc14bb4" Name="TypeDefs">
+					<SourceFileReference Bindings="EnvoyManager" Id="2b3fe6b5eec41c59c4525da945b9117" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="MessageDataCluster.gtype" StoragePath="TypeDefs\MessageDataCluster.gtype\MessageDataCluster.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="226b645d2348475ca64d79c72e105c99" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="HealthHistory.gtype" StoragePath="TypeDefs\HealthHistory.gtype\HealthHistory.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="302b728b84464811b519beaa1d02254e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TagValueCluster.gtype" StoragePath="TypeDefs\TagValueCluster.gtype\TagValueCluster.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="efea9521104a4b80b92bdd5029c16daf" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="ClientInfo.gtype" StoragePath="TypeDefs\ClientInfo.gtype\ClientInfo.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="729d9cb710664987a5e693f7d1ee1822" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="FGVCommand.gtype" StoragePath="TypeDefs\FGVCommand.gtype\FGVCommand.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="5bbfed45d7346f4bfc0cd294102cf44" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="MessageLoopData.gtype" StoragePath="TypeDefs\MessageLoopData.gtype\MessageLoopData.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="8653afe12e0344daa763c492c0021a5b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="ClientDataCluster.gtype" StoragePath="TypeDefs\ClientDataCluster.gtype\ClientDataCluster.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="c4994dcc673f47f98c8653817a722941" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="ClientsFGVCmd.gtype" StoragePath="TypeDefs\ClientsFGVCmd.gtype\ClientsFGVCmd.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="6c56d06458ff416e82dd01b75701607e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TimeSpan.gtype" StoragePath="TypeDefs\TimeSpan.gtype\TimeSpan.gtype" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ab1cbd652e7742e1be0d68fa20f65b9e" Name="Modules">
+					<SourceFileReference Id="eec2084c7f6448719df5e37588b35516" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetHealthTagPaths.gvi" StoragePath="Modules\GetHealthTagPaths.gvi" />
+					<SourceFileReference Id="1705cc1a4ada4244876cbfb8d9e89f47" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetHealthHistory.gvi" StoragePath="Modules\GetHealthHistory.gvi" />
+					<SourceFileReference Id="3d387c446e794e83a8a0a760837aedfd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetValueFromTagList.gvi" StoragePath="Modules\GetValueFromTagList.gvi" />
+					<SourceFileReference Id="67e3662e3b574f9ea34225584136149c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="OnlineSystemsFGV.gvi" StoragePath="Modules\OnlineSystemsFGV.gvi" />
+					<SourceFileReference Id="6a9429ef3a814b97a241a71be82ca613" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetOnlineSystems.gvi" StoragePath="Modules\GetOnlineSystems.gvi" />
+					<SourceFileReference Id="e5679659757b40709d95d6e1393bae0b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ProcessClientMessage.gvi" StoragePath="Modules\ProcessClientMessage.gvi" />
+					<SourceFileReference Id="d9cc7d52a7144d21b8c489fc9b332308" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UpdateMarker.gvi" StoragePath="Modules\UpdateMarker.gvi" />
+					<SourceFileReference Id="35a1386391e84de8be94932ace0deba1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetTimeSpan.gvi" StoragePath="Modules\GetTimeSpan.gvi" />
+					<SourceFileReference Id="6ddb5f2f20604affa74ca1bcb65fa2ce" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DeleteOldTags.gvi" StoragePath="Modules\DeleteOldTags.gvi" />
+					<SourceFileReference Id="f0558358c1e548b182c761e239bdbb43" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetClientFile.gvi" StoragePath="Modules\GetClientFile.gvi" />
+					<SourceFileReference Id="7c99769a924415a98539bdfd76a7511" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="MapFGV.gvi" StoragePath="Modules\MapFGV.gvi" />
+					<SourceFileReference Id="4631f63ffb24a20948a960f0284496d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="MarkersFGV.gvi" StoragePath="Modules\MarkersFGV.gvi" />
+				</NameScopingEnvoy>
+				<FileReference Bindings=".jpeg" Id="9ba0b80717bf4e2ba0b6b0f2bb248678" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="nilogo.jpeg" StoragePath="nilogo.jpeg" />
+				<FileReference Bindings=".png" Id="72dceac3213642a5974dcadb845781a9" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="nilogo2.png" StoragePath="nilogo2.png" />
+				<FileReference Bindings=".png" Id="fc46738f63424da2cdc800be33e84d" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="niPageBG.png" StoragePath="niPageBG.png" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="d8e1ce7cead642bbb478c061797bd530" Name="DashboardUI.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="152b38773b824bdcb224b8ff409da876" Id="8cfc1f44d37f46fd889aeb654a9a2cec" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
