@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="CA286412F058522B0D7CD380A48384F4A2FEB2B00EC2299DF0C1214B58DDD7AD8CAC8409D2CC18D39DAE2590C9C71098FA4623C212D1D374B422787079898EC4" Timestamp="1D685A490C5CABB" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="388D6975A09E29E09C3991659B4E1166FDEDA98D2E25A3C013921525219EF16993432716C5C3E9E70792D7CF7D2926FE4E670941B30E792CE8902FB2C73A972E" Timestamp="1D6FFDDE906AF0E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="dff2299d5a7f415e91aa3f38b6484341" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;p&gt;This VI looks for the .system.connected tag and returns an array of connected systems as well as the length of that array (number of connected systems)&lt;/p&gt;</p.UserDescription>
 		<Icon Id="2f1c1a8cdc924abfbb1fa0132d814c2d" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="174bd7bb60341069a76c44323c69d24" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="7836fbce04a4f658822280e54d6b989" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
@@ -50,7 +51,7 @@
 			<NodeLabel AttachedTo="cd505332b5f847e28663d07b1d79d99e" Bounds="286 240 24 14" Id="7324b0e997c64292a716549813d64410" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>tags</p.Text>
 			</NodeLabel>
-			<CaseStructure Bounds="380 155 360 235" DataType="Error" Default="a59d9d2dd26144a587a50bfc450c194c" Id="863f9ae80ae6495988338f001bd845b8" Selected="a59d9d2dd26144a587a50bfc450c194c" UserSelectorBounds="127 0 106 17">
+			<CaseStructure Bounds="380 155 360 235" DataType="Error" Default="a59d9d2dd26144a587a50bfc450c194c" Id="863f9ae80ae6495988338f001bd845b8" Selected="c6ea69f8c15b428cba053a8ba98b8c6f" UserSelectorBounds="127 0 106 17">
 				<CaseStructure.Case Bounds="5 5 350 225" Id="a59d9d2dd26144a587a50bfc450c194c" Pattern="Error">
 					<Wire Id="173f3e0582f4424396057cff77b767fa" Joints="N(646013f5189a40e795344a3233094d14:a59d9d2dd26144a587a50bfc450c194c)|(4,195) N(ee61c6125b4b4d268bed06fa2866f45e:a59d9d2dd26144a587a50bfc450c194c)|(346,195)" xmlns="http://www.ni.com/PlatformFramework" />
 					<ArrayLiteral Bounds="171 75 94 25" DataType="String[]" Id="2910f8e8058740dfa326f6c5392691ad" xmlns="http://www.ni.com/MocCommon">
@@ -72,7 +73,7 @@
 				<CaseStructure.Case Bounds="5 5 350 225" Id="c6ea69f8c15b428cba053a8ba98b8c6f" Pattern="No Error">
 					<ForLoop Bounds="28 58 246 116" DiagramId="c85d880fc6ea4d659d57a75186642865" Id="e41f17633f4249428febbdb5c6b95c91">
 						<LoopIteration Bounds="5 85 15 15" Id="f2980079abd446ef8bb986675f8acb0b" />
-						<PropertyNode Bounds="15 20 59 35" HasErrorTerminals="False" Id="554d9c91d31f476abf7f8358344deb1d" InstanceDataType="@ff2b2415e1ba440d8a05d1d63d82b711" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+						<PropertyNode Bounds="15 20 59 35" HasErrorTerminals="False" Id="554d9c91d31f476abf7f8358344deb1d" InstanceDataType="@ff2b2415e1ba440d8a05d1d63d82b711" xmlns="http://www.ni.com/MocCommon">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="NI::Skyline::TagHTTP::Tag.gtype" />
 							</p.TypeDefinitionTargets>

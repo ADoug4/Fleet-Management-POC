@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>980e3748-8241-4ded-bcd4-5e8473542de3</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>980e3748-8241-4ded-bcd4-5e8473542de3</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-09-29T08:39:00.2409502Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>b8415a73-3c4d-4884-93d6-41c1e1158610</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>b8415a73-3c4d-4884-93d6-41c1e1158610</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-09-29T08:43:16.7454339Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>c1afcef1-c247-4994-88e3-88e1154d9c63</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>c1afcef1-c247-4994-88e3-88e1154d9c63</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-04T13:31:49.3529403Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>ea2a6591-4d31-4c73-a192-163ff9a1b044</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>ea2a6591-4d31-4c73-a192-163ff9a1b044</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-04T13:41:10.8512995Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6af50f66-ea13-4e00-823f-cd7bd3da94c5</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6af50f66-ea13-4e00-823f-cd7bd3da94c5</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-04T13:50:06.1625080Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>c4564767-6d1d-406d-8b43-1bc234728700</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>c4564767-6d1d-406d-8b43-1bc234728700</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-04T13:53:36.5583713Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>547d6c25-c1c0-4b90-bab5-622604bc0e4c</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>547d6c25-c1c0-4b90-bab5-622604bc0e4c</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-10-04T14:10:44.5599651Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>78bb59e9-7927-4ece-b8aa-5ab60604baa3</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>78bb59e9-7927-4ece-b8aa-5ab60604baa3</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-04T14:52:32.0638042Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>4a05f7a5-e1f9-48db-af11-63600f064452</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>4a05f7a5-e1f9-48db-af11-63600f064452</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-10-04T14:59:20.2321599Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>86edd8b7-9e3c-4788-8222-89b8732d1aff</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>86edd8b7-9e3c-4788-8222-89b8732d1aff</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-10-04T15:00:59.6956389Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>98c9d4a0-5f4b-43ae-8efa-f4b86565bb4a</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>98c9d4a0-5f4b-43ae-8efa-f4b86565bb4a</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-10-04T15:02:12.7928886Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>9c365572-7543-4b7e-8fd8-709615cf3fb0</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>9c365572-7543-4b7e-8fd8-709615cf3fb0</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-04T15:42:47.9334272Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8600aa1d-3a5d-4813-9dfa-cea0e8986a5c</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8600aa1d-3a5d-4813-9dfa-cea0e8986a5c</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-04T15:49:05.9136609Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8ca3a3c6-20d4-4434-8de5-d809fa584da0</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8ca3a3c6-20d4-4434-8de5-d809fa584da0</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-10-04T15:52:12.7426686Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>e314e088-fa9c-43b4-a8db-94d8db68f206</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>e314e088-fa9c-43b4-a8db-94d8db68f206</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-04T15:57:21.1378345Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>45fda79a-443b-4827-8b35-f3ae5de461a1</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>45fda79a-443b-4827-8b35-f3ae5de461a1</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-10-04T16:01:23.5066227Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>564c0ab6-5c02-4c83-bb1f-7aa58ae9fd66</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>564c0ab6-5c02-4c83-bb1f-7aa58ae9fd66</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:03</LastTotalTime>
+    <StartTime>2020-10-06T06:22:50.8941336Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>c7bb7582-0778-494b-8081-61782d0ca5b9</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>c7bb7582-0778-494b-8081-61782d0ca5b9</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-06T06:29:06.6279323Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>264fe8ab-3aba-476b-ab48-e4c45e8cef61</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>264fe8ab-3aba-476b-ab48-e4c45e8cef61</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-06T06:32:30.1533127Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>7b969b8e-c818-46a5-89ff-6bb657c5b6ee</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>7b969b8e-c818-46a5-89ff-6bb657c5b6ee</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-06T06:41:30.7817558Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>38c66ea8-d2b4-45a0-b2ee-f2dfd6028b57</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>38c66ea8-d2b4-45a0-b2ee-f2dfd6028b57</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-06T06:44:43.1087374Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>1139197a-c42e-48e3-850e-eb45c814291c</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>1139197a-c42e-48e3-850e-eb45c814291c</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-06T06:52:45.1726370Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8ab47708-3b62-4a25-b08b-c183add3183e</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8ab47708-3b62-4a25-b08b-c183add3183e</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-10-06T06:55:12.6663651Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>1a6f0879-1480-41d0-99cb-dba68349f94f</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>1a6f0879-1480-41d0-99cb-dba68349f94f</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-06T06:57:00.2214908Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>76f97ade-264c-4962-addb-702421ed2e5e</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>76f97ade-264c-4962-addb-702421ed2e5e</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-10-06T06:58:31.9157166Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>bd262c5b-e196-40aa-9c9c-2c7de025dde4</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>bd262c5b-e196-40aa-9c9c-2c7de025dde4</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-06T07:02:34.2079953Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>2c902bc0-bf8b-4dc1-946d-f1863da1f4d6</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>2c902bc0-bf8b-4dc1-946d-f1863da1f4d6</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-06T07:26:30.7466652Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>ff3fa7d7-2d42-4c70-8914-24dfaed176e7</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>ff3fa7d7-2d42-4c70-8914-24dfaed176e7</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-06T10:38:08.7308504Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>f862f40a-d77a-45a9-bab4-46a8025c6892</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>f862f40a-d77a-45a9-bab4-46a8025c6892</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:03</LastTotalTime>
+    <StartTime>2020-10-12T12:52:41.9953036Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>66a968b9-e607-4e6d-98e0-94acce2959c7</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>66a968b9-e607-4e6d-98e0-94acce2959c7</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-10-12T12:56:19.2301195Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>91075a62-53c3-4989-9f27-92e0f4ee87d3</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>91075a62-53c3-4989-9f27-92e0f4ee87d3</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\DashboardUI_Web Server</OutputPath>
+    <BuildName>DashboardUI</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-10-13T13:48:53.7417315Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::Web Server::Interactive::DashboardUI.gcomp</QualifiedName>
+    <HintEnvoy>::Web Server::Interactive::DashboardUI.gcomp</HintEnvoy>
+  </Job>
+</JobList>

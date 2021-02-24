@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5C5D02C069BB1AF90E582648E3F4A0E822D55F45741B4A9C5FBA78FFAEECFDBC28BD2D850CDC98BC60D1B8EEE4F5F747DE29E763D3284AD941FE079B669BF4ED" Timestamp="1D68293B7CBE54F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@9a322f55be7c4900ac2d07718d54f0ea" Id="1e6862f63cdc4bc6b5d11d1a6ff71c66" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="b8e0b715e9cd41a29d6dc0e5aeba729e" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="7743fc4a36b749bf91cb25850507e291" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="43d5c9f3da0f452b88e4986ce5f24058" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@9a322f55be7c4900ac2d07718d54f0ea" Id="6d5b4cbbc3df4f4ebbb4774c9fb0dcb8" Name="Command">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="ed1f3d3ea2964ac9977351a6d4de26f3" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="bc20d6c602c543ce8867e0097e6c7142" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="838d4a3d7f2141dbb5759a24810bf771" Name="FGVCommand.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="5eff21dfdd71496c93b2c421630f1894" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="4e1bfbab415543ed8f515c65813337cb" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="e20e6d1ffc4d4655855e26e3d49b0ab6" IsTypeAheadEnabled="[bool]True" Label="[UIModel]bccba42ae8d34896b4498d9205ce578e" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=6d5b4cbbc3df4f4ebbb4774c9fb0dcb8}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Init" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]AddClient" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]RemoveClient" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Reset" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]GetClient" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]GetAllClients" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="bccba42ae8d34896b4498d9205ce578e" LabelOwner="[UIModel]e20e6d1ffc4d4655855e26e3d49b0ab6" Left="[float]100" Text="[string]Command" Top="[float]80" Width="[float]55" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="9a322f55be7c4900ac2d07718d54f0ea">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Init" />
+					<EnumerationMember Value="1" Name="AddClient" />
+					<EnumerationMember Value="2" Name="RemoveClient" />
+					<EnumerationMember Value="3" Name="Reset" />
+					<EnumerationMember Value="4" Name="GetClient" />
+					<EnumerationMember Value="5" Name="GetAllClients" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

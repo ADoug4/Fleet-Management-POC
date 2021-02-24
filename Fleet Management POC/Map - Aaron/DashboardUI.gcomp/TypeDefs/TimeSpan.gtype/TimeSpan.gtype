@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A0FD09DD6C3EBC9B788963C75D154E4C593C7F2EDCB148FDBD4B2A9955A62651BF293FFC75F183CE91212A8B79E963582D38007E3465504D864418D4782150D3" Timestamp="1D68E9B2F6002FC" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@02a02351f2e14304ad217bc61350bf75" Id="bda0b689348d49f1949c6bf210b11cc4" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="a01bf7f7e8844e369335d79e4ab3f4ef" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="f6a84b66ad034241a9cff00ea800a8fe" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="662cde914dde4e829ce05876a4f28948" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@02a02351f2e14304ad217bc61350bf75" Id="336aa48541a44b5e987a69fa9776252c" Name="TimeSpan">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5cc4b1a69da5477280b4a07fedb93ec1" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="813435ee922e464baa9913088f1a0ebe" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="206fa24f8d9942fcaf72a48a1c80b030" Name="Type.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="d3000ab42a2e49e59b3321bea9b4bf26" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="14cf61b75878436099014a7922652283" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="b1d0464cd34c430e96a20744296db4df" IsTypeAheadEnabled="[bool]True" Label="[UIModel]844a79eb1e7a4eaba081d0d80ee275f8" Left="[float]97" TabIndex="[int]0" Top="[float]172" Value="{DataItemBinding Id=336aa48541a44b5e987a69fa9776252c}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]1 Hour" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]6 Hours" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]12 Hours" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]1 Day" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]3 Days" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]1 Week" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]1 Month" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="844a79eb1e7a4eaba081d0d80ee275f8" LabelOwner="[UIModel]b1d0464cd34c430e96a20744296db4df" Left="[float]97" Text="[string]TimeSpan" Top="[float]152" Width="[float]53" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="02a02351f2e14304ad217bc61350bf75">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="1 Hour" />
+					<EnumerationMember Value="1" Name="6 Hours" />
+					<EnumerationMember Value="2" Name="12 Hours" />
+					<EnumerationMember Value="3" Name="1 Day" />
+					<EnumerationMember Value="4" Name="3 Days" />
+					<EnumerationMember Value="5" Name="1 Week" />
+					<EnumerationMember Value="6" Name="1 Month" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

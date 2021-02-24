@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="17E99DB135960DAEAC1B5CBDED0592FF5F19254F5AE1BA232CEBEF61284241BB8A49E9595A92A04AB073786B7CFFBEA62A18AD3CC8EAB21B0918C9B14199ED79" Timestamp="1D690363C72112F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F2B280B00D97E83BD47BBFBAFD3F6A6A29B7E41187EAEC0DFE0BFFFE46C4DFBC12E3D81F85D29AB0CCD90202B5131791B97107597EF9C4649C540310B8542EE0" Timestamp="1D70A1A33F11C02" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="a9f7d5d3d0534e0a8ac1ae17307d96b3" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="efcfaf5d9be34f57bc7abfcbdda57e61" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -153,7 +153,7 @@
 				<CaseStructure.Case Bounds="5 5 2567 632" Id="8658906be2104ccea9277d62f881bb6d" Pattern="No Error">
 					<ForLoop Bounds="226 60 2139 526" DiagramId="925f936ee83344ee817ac9a492c064bf" Id="fd733579b25b4f768c228eaf96d00aa6">
 						<LoopIteration Bounds="5 495 15 15" Id="2f53256689534314a125034eb24a23c7" />
-						<PropertyNode Bounds="19 320 101 80" HasErrorTerminals="False" Id="8eb30b4e1de54ba89962899dc1d647ab" InstanceDataType="@b81fe4679e6d48b298a972bc19c9693b" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+						<PropertyNode Bounds="19 320 101 80" HasErrorTerminals="False" Id="8eb30b4e1de54ba89962899dc1d647ab" InstanceDataType="@b81fe4679e6d48b298a972bc19c9693b" xmlns="http://www.ni.com/MocCommon">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="NI::Skyline::TagHTTP::Tag Value Cluster.gtype" />
 								<TypeDefinitionTarget TargetName="NI::Skyline::TagHTTP::DataType.gtype" />
@@ -219,7 +219,7 @@
 						<Wire Id="c630e89455ee44bb9f930933b85beb15" Joints="N(4fa45ba8dc3a416cb6d264124ae6b4a3:i0)|(6,280) h(224) B(1) N(fdb66c7e3c7e44f89059642f177c982a:o0)|(342,280) B(1) v(-45) N(c3ece2d7f1a948428136596b54b925a1:array)|(259,235)" xmlns="http://www.ni.com/PlatformFramework" />
 						<ForLoop Bounds="347 83 856 426" DiagramId="faa7ceefbf84705bda337b624a6da0f" Id="ab2b55446cdb4d17bae39a4dd20368a0">
 							<LoopIteration Bounds="5 395 15 15" Id="ce77843a590945639cc5ff259cc2b355" />
-							<PropertyNode Bounds="75 160 69 35" HasErrorTerminals="False" Id="c4f2f885d47e486da3aa9b6e5d9263e6" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+							<PropertyNode Bounds="75 160 69 35" HasErrorTerminals="False" Id="c4f2f885d47e486da3aa9b6e5d9263e6" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 								<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 									<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 								</p.TypeDefinitionTargets>
@@ -242,7 +242,7 @@
 								<CaseStructure.Case Bounds="5 5 550 245" Id="8696b986a1c74777b3f47cf1dc7326be" Pattern="True">
 									<CaseStructure Bounds="30 55 505 125" DataType="String" Default="6f44713213db448ea038686489352735" Id="d5e95898c5304c4da7c66a088fe1bb5e" Selected="6a907f6263aa448eb4850893daf8bd6c" UserSelectorBounds="129 0 247 17">
 										<CaseStructure.Case Bounds="5 5 495 115" Id="f4c09ab6881b4bc4a89452e40707685c" Pattern="&quot;System.Connected&quot;">
-											<PropertyNode Bounds="225 20 160 50" HasErrorTerminals="False" Id="4c2d418f78194f57a0c3a87806a9b861" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+											<PropertyNode Bounds="225 20 160 50" HasErrorTerminals="False" Id="4c2d418f78194f57a0c3a87806a9b861" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 												<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 													<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 												</p.TypeDefinitionTargets>
@@ -274,14 +274,14 @@
 										</CaseStructure.Case>
 										<CaseStructure.Case Bounds="5 5 495 115" Id="d5d6a6a819f74bbd90e6db0fcbdbfbb6" Pattern="&quot;System.SystemStartTime&quot;">
 											<Wire Id="29670bce410844d093110234aaec1c27" Joints="N(18d963ca2d9646e6b5f0363f3ee3e223:d5d6a6a819f74bbd90e6db0fcbdbfbb6)|(4,25) N(da8d920a195446b69c864b261821e742:instance in)|(335,25)" xmlns="http://www.ni.com/PlatformFramework" />
-											<PropertyNode Bounds="335 20 148 35" HasErrorTerminals="False" Id="da8d920a195446b69c864b261821e742" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+											<PropertyNode Bounds="335 20 148 35" HasErrorTerminals="False" Id="da8d920a195446b69c864b261821e742" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 												<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 													<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 												</p.TypeDefinitionTargets>
 												<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 15" Id="c0t0v" Path="System Start Time" PathElementMemberKinds="Field" Usage="Required" />
 											</PropertyNode>
 											<Wire Id="d6f2d1353dfb4b9185873ddf061ed684" Joints="N(da8d920a195446b69c864b261821e742:instance out)|(483,25) N(4b30685ee2de4fb48fb7d115bfe03b25:d5d6a6a819f74bbd90e6db0fcbdbfbb6)|(491,25)" xmlns="http://www.ni.com/PlatformFramework" />
-											<MethodCall Bounds="70 30 40 40" Id="c50614f33cb640ef83170ef1ad615df0" ResolveFailedHint="Search and Replace Pattern.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 5.0.0)" Signature="@c76af890e8ef4cbcbe6a1d2ed822b0f8" Target="NI::G Core::Strings::Search and Replace Pattern.gvi" xmlns="http://www.ni.com/MocCommon">
+											<MethodCall Bounds="70 30 40 40" Id="c50614f33cb640ef83170ef1ad615df0" ResolveFailedHint="Search and Replace Pattern.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 5.1.0)" Signature="@c76af890e8ef4cbcbe6a1d2ed822b0f8" Target="NI::G Core::Strings::Search and Replace Pattern.gvi" xmlns="http://www.ni.com/MocCommon">
 												<p.MethodDeclaration>
 													<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 														<Parameter Id="L0" Desc="string" />
@@ -319,7 +319,7 @@
 											</NodeLabel>
 											<Wire Id="510f3d4573194a75a59869e3183d3527" Joints="N(1df46aee13a247f4b0bf8afa0c9fdc0e:Out)|(55,60) v(-5) N(c50614f33cb640ef83170ef1ad615df0:L2)|(70,55)" xmlns="http://www.ni.com/PlatformFramework" />
 											<Wire Id="f743e29f5bb74067a2f4baa00847c79f" Joints="N(c50614f33cb640ef83170ef1ad615df0:R0)|(110,35) N(bf4c18474273490aa55af0eec440a270:L0)|(175,35)" xmlns="http://www.ni.com/PlatformFramework" />
-											<MethodCall Bounds="175 30 40 40" Id="bf4c18474273490aa55af0eec440a270" ResolveFailedHint="Search and Replace Pattern.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 5.0.0)" Signature="@c76af890e8ef4cbcbe6a1d2ed822b0f8" Target="NI::G Core::Strings::Search and Replace Pattern.gvi" xmlns="http://www.ni.com/MocCommon">
+											<MethodCall Bounds="175 30 40 40" Id="bf4c18474273490aa55af0eec440a270" ResolveFailedHint="Search and Replace Pattern.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 5.1.0)" Signature="@c76af890e8ef4cbcbe6a1d2ed822b0f8" Target="NI::G Core::Strings::Search and Replace Pattern.gvi" xmlns="http://www.ni.com/MocCommon">
 												<p.MethodDeclaration>
 													<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 														<Parameter Id="L0" Desc="string" />
@@ -368,7 +368,7 @@
 											<Wire Id="7e15404acaaf4bf4b54ba8bde669b5e2" Joints="N(878c40222054ba69a0a4da38fe77abe:Out)|(260,50) N(ca345e5ff0ef46d4b5dc7b0d2acbd263:search string/char)|(265,50)" xmlns="http://www.ni.com/PlatformFramework" />
 										</CaseStructure.Case>
 										<CaseStructure.Case Bounds="5 5 495 115" Id="5799ef09eb7c47e1b23376149c4473f1" Pattern="&quot;System.LoggingState&quot;">
-											<PropertyNode Bounds="225 20 120 35" HasErrorTerminals="False" Id="451a061242f64eb1ade4e9bcdb88f8e7" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+											<PropertyNode Bounds="225 20 120 35" HasErrorTerminals="False" Id="451a061242f64eb1ade4e9bcdb88f8e7" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 												<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 													<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 												</p.TypeDefinitionTargets>
@@ -379,7 +379,7 @@
 											<Wire Id="6c849c97f18547f5b806383f0a3e7bbd" Joints="N(a7874792b9604b0f9cc9a207ffe51591:5799ef09eb7c47e1b23376149c4473f1)|(4,110) h(201) v(-75) N(451a061242f64eb1ade4e9bcdb88f8e7:c0t0v)|(225,35)" xmlns="http://www.ni.com/PlatformFramework" />
 										</CaseStructure.Case>
 										<CaseStructure.Case Bounds="5 5 495 115" Id="6a907f6263aa448eb4850893daf8bd6c" Pattern="&quot;Health.Memory.UsePercentage&quot;">
-											<PropertyNode Bounds="250 20 104 35" HasErrorTerminals="False" Id="21b65af9566d4e2baf79d3955b3da655" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+											<PropertyNode Bounds="250 20 104 35" HasErrorTerminals="False" Id="21b65af9566d4e2baf79d3955b3da655" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 												<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 													<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 												</p.TypeDefinitionTargets>
@@ -400,7 +400,7 @@
 											<Wire Id="396805861c67473b84608013fc1c67de" Joints="N(c08c9ab14cb344b8b764598cf7f78b5d:Out)|(95,55) N(32bb2705f1c948f199a0d11d28e0ebd0:precision (6\))|(115,55)" xmlns="http://www.ni.com/PlatformFramework" />
 										</CaseStructure.Case>
 										<CaseStructure.Case Bounds="5 5 495 115" Id="cefa2124a43c45ebbf0517d014ca5606" Pattern="&quot;Health.CPU.MeanUsePercentage&quot;">
-											<PropertyNode Bounds="270 20 101 35" HasErrorTerminals="False" Id="c03fc0793e0a4cb5808a7e87b8584591" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+											<PropertyNode Bounds="270 20 101 35" HasErrorTerminals="False" Id="c03fc0793e0a4cb5808a7e87b8584591" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 												<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 													<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 												</p.TypeDefinitionTargets>
@@ -421,7 +421,7 @@
 											<Wire Id="b14eddd3c1144699728242ea701ef81" Joints="N(adb46bff2fbd4bb09b5ad37bb791fbd3:Out)|(140,55) N(a6a8fc83af2f46b496e57dda178c16c3:precision (6\))|(155,55)" xmlns="http://www.ni.com/PlatformFramework" />
 										</CaseStructure.Case>
 										<CaseStructure.Case Bounds="5 5 495 115" Id="c7f64b722d444cff86297a86ea11b254" Pattern="&quot;Health.Disk.UsePercentage&quot;">
-											<PropertyNode Bounds="250 20 124 35" HasErrorTerminals="False" Id="bd9d996dde41488e90da7da1cae3a913" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+											<PropertyNode Bounds="250 20 124 35" HasErrorTerminals="False" Id="bd9d996dde41488e90da7da1cae3a913" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 												<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 													<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 												</p.TypeDefinitionTargets>
@@ -522,7 +522,7 @@
 								<Increment Bounds="15 30 30 30" Id="5a3521eff38d4119bc4be532013fe67f" />
 								<CaseStructure Bounds="125 65 490 225" DataType="String" Default="3513b721be3d404dac58aa85dd2b305f" Id="41a2e594c0ec4f63a159050e4a8e6b3e" Selected="5e232938f854463d8723ee167d89ad6d" UserSelectorBounds="122 0 247 17">
 									<CaseStructure.Case Bounds="5 5 480 215" Id="a086b9e522f5400aa56a2ad298c4921b" Pattern="&quot;System.Connected&quot;">
-										<PropertyNode Bounds="300 20 160 65" HasErrorTerminals="False" Id="3dcf474d6bb4292bb86000c577f551b" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+										<PropertyNode Bounds="300 20 160 65" HasErrorTerminals="False" Id="3dcf474d6bb4292bb86000c577f551b" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 											<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 												<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 											</p.TypeDefinitionTargets>
@@ -555,7 +555,7 @@
 										<Wire Id="805825c6d6764df48452d1f8bf66f56f" Joints="N(761ef9a4845544669d064872fdf400be:s? t:f)|(220,130) h(35) v(-95) N(3dcf474d6bb4292bb86000c577f551b:c0t0v)|(300,35)" xmlns="http://www.ni.com/PlatformFramework" />
 									</CaseStructure.Case>
 									<CaseStructure.Case Bounds="5 5 480 215" Id="c5549250bc0c43fdbd40ef721b0f946d" Pattern="&quot;System.LoggingState&quot;">
-										<PropertyNode Bounds="260 20 120 50" HasErrorTerminals="False" Id="dbde74c20ce343b98b89bbf197edc945" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+										<PropertyNode Bounds="260 20 120 50" HasErrorTerminals="False" Id="dbde74c20ce343b98b89bbf197edc945" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 											<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 												<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 											</p.TypeDefinitionTargets>
@@ -569,7 +569,7 @@
 									</CaseStructure.Case>
 									<CaseStructure.Case Bounds="5 5 480 215" Id="cccf34e616b44bfe8428f29ec73734b2" Pattern="&quot;System.SystemStartTime&quot;">
 										<Wire Id="cd5f3b1c42fc4620a92b92b0b0c9545a" Joints="N(a5df02fcb91a443b9a5b137da6917242:cccf34e616b44bfe8428f29ec73734b2)|(4,25) N(558144361155463d9f16338163357658:instance in)|(325,25)" xmlns="http://www.ni.com/PlatformFramework" />
-										<PropertyNode Bounds="325 20 148 50" HasErrorTerminals="False" Id="558144361155463d9f16338163357658" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+										<PropertyNode Bounds="325 20 148 50" HasErrorTerminals="False" Id="558144361155463d9f16338163357658" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 											<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 												<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 											</p.TypeDefinitionTargets>
@@ -579,7 +579,7 @@
 										<Wire Id="35f2af7122e84bca9b57714ef1818908" Joints="N(558144361155463d9f16338163357658:instance out)|(473,25) N(11b549b6c4fb44909358b89a98f8ef7f:cccf34e616b44bfe8428f29ec73734b2)|(476,25)" xmlns="http://www.ni.com/PlatformFramework" />
 										<Wire Id="61c29e280f3d4c7eaa059b814ea1ecf2" Joints="N(60b9c163fd1141be95be427c7d7cfbef:cccf34e616b44bfe8428f29ec73734b2)|(4,195) h(316) v(-145) N(558144361155463d9f16338163357658:c1t0v)|(325,50)" xmlns="http://www.ni.com/PlatformFramework" />
 										<Wire Id="5b5ebce4eb041078b616d9c897ee119" Joints="N(8c1cbbc67a6d47feb4e0202906cf97ee:cccf34e616b44bfe8428f29ec73734b2)|(4,170) h(6) v(-135) N(8160c042b90c43cd9782641e5afc9f15:L0)|(70,35)" xmlns="http://www.ni.com/PlatformFramework" />
-										<MethodCall Bounds="70 30 40 40" Id="8160c042b90c43cd9782641e5afc9f15" ResolveFailedHint="Search and Replace Pattern.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 5.0.0)" Signature="@c76af890e8ef4cbcbe6a1d2ed822b0f8" Target="NI::G Core::Strings::Search and Replace Pattern.gvi" xmlns="http://www.ni.com/MocCommon">
+										<MethodCall Bounds="70 30 40 40" Id="8160c042b90c43cd9782641e5afc9f15" ResolveFailedHint="Search and Replace Pattern.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 5.1.0)" Signature="@c76af890e8ef4cbcbe6a1d2ed822b0f8" Target="NI::G Core::Strings::Search and Replace Pattern.gvi" xmlns="http://www.ni.com/MocCommon">
 											<p.MethodDeclaration>
 												<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 													<Parameter Id="L0" Desc="string" />
@@ -610,7 +610,7 @@
 										</Literal>
 										<Wire Id="6f613466c03b409a92816cc00e3b0ec6" Joints="N(dbd399409696455e932916bfaca3bf6f:Out)|(55,60) v(-5) N(8160c042b90c43cd9782641e5afc9f15:L2)|(70,55)" xmlns="http://www.ni.com/PlatformFramework" />
 										<Wire Id="a24cce6bc2854a658bcd48c2e05b1bac" Joints="N(8160c042b90c43cd9782641e5afc9f15:R0)|(110,35) N(6424afddfde64b7ba431f6477fc9cd02:L0)|(175,35)" xmlns="http://www.ni.com/PlatformFramework" />
-										<MethodCall Bounds="175 30 40 40" Id="6424afddfde64b7ba431f6477fc9cd02" ResolveFailedHint="Search and Replace Pattern.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 5.0.0)" Signature="@c76af890e8ef4cbcbe6a1d2ed822b0f8" Target="NI::G Core::Strings::Search and Replace Pattern.gvi" xmlns="http://www.ni.com/MocCommon">
+										<MethodCall Bounds="175 30 40 40" Id="6424afddfde64b7ba431f6477fc9cd02" ResolveFailedHint="Search and Replace Pattern.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 5.1.0)" Signature="@c76af890e8ef4cbcbe6a1d2ed822b0f8" Target="NI::G Core::Strings::Search and Replace Pattern.gvi" xmlns="http://www.ni.com/MocCommon">
 											<p.MethodDeclaration>
 												<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 													<Parameter Id="L0" Desc="string" />
@@ -665,7 +665,7 @@
 										<Wire Id="477534836da84d0bb178586416f40577" Joints="N(8c628b15fa9484fa2d45f6da0f0d468:Out)|(235,100) h(6) v(-50) N(528109856bea492da4c8059c2643da75:search string/char)|(270,50)" xmlns="http://www.ni.com/PlatformFramework" />
 									</CaseStructure.Case>
 									<CaseStructure.Case Bounds="5 5 480 215" Id="5e232938f854463d8723ee167d89ad6d" Pattern="&quot;Health.Memory.UsePercentage&quot;">
-										<PropertyNode Bounds="290 20 104 50" HasErrorTerminals="False" Id="aaf8bbc26c004ece8b9832d4b2d72bd8" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+										<PropertyNode Bounds="290 20 104 50" HasErrorTerminals="False" Id="aaf8bbc26c004ece8b9832d4b2d72bd8" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 											<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 												<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 											</p.TypeDefinitionTargets>
@@ -688,7 +688,7 @@
 										<Wire Id="e42bda6a1fdb4a0aaaaef1531c03fd1d" Joints="N(5e4dfe32040a40bba82a83302e09386d:Out)|(105,55) N(c21b09357ecd45ba8d2034411390e8a2:precision (6\))|(125,55)" xmlns="http://www.ni.com/PlatformFramework" />
 									</CaseStructure.Case>
 									<CaseStructure.Case Bounds="5 5 480 215" Id="e87de8bc77d344eb9956964f42f9b627" Pattern="&quot;Health.CPU.MeanUsePercentage&quot;">
-										<PropertyNode Bounds="210 20 101 50" HasErrorTerminals="False" Id="b3202a8aa4f340a68c72bafa6cde2001" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+										<PropertyNode Bounds="210 20 101 50" HasErrorTerminals="False" Id="b3202a8aa4f340a68c72bafa6cde2001" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 											<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 												<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 											</p.TypeDefinitionTargets>
@@ -714,7 +714,7 @@
 										<Wire Id="c7c828a2795b473aa2228255ed88b171" Joints="N(aa2aac6017c44d28930a65b609a6da3b:Out)|(110,55) N(88708018a28146fc8f851f5c6076e7d5:precision (6\))|(130,55)" xmlns="http://www.ni.com/PlatformFramework" />
 									</CaseStructure.Case>
 									<CaseStructure.Case Bounds="5 5 480 215" Id="de36a0a3f89d45908e1eacf7088fb9ba" Pattern="&quot;Health.Disk.UsePercentage&quot;">
-										<PropertyNode Bounds="285 20 124 50" HasErrorTerminals="False" Id="f732f4e8270846b0b51f23d88953b261" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+										<PropertyNode Bounds="285 20 124 50" HasErrorTerminals="False" Id="f732f4e8270846b0b51f23d88953b261" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 											<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 												<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 											</p.TypeDefinitionTargets>
@@ -795,7 +795,7 @@
 						<ArraySize Bounds="259 230 40 20" Id="c3ece2d7f1a948428136596b54b925a1" />
 						<Wire Id="8287b68047684e809194c85d6df5fbdf" Joints="N(c3ece2d7f1a948428136596b54b925a1:size(s\))|(299,245) h(16) v(-155) N(5f09c6367d3f4417a91652b61fc7bc45:ab2b55446cdb4d17bae39a4dd20368a0)|(348,90)" xmlns="http://www.ni.com/PlatformFramework" />
 						<LoopCount Bounds="1 1 15 15" Docking="Left" Id="9e47ec797d9b4b9daef0e34f971547cd" Terminals="fd733579b25b4f768c228eaf96d00aa6, 925f936ee83344ee817ac9a492c064bf" />
-						<LoopTunnel AutoIndex="True" Bounds="-5 322 13 10" Docking="Left" Id="bb18400c9d454f82b12f48481cb365e3" Terminals="o0=78fbad01eef84d5aadae8a16e7337dc4, i0=dd33d09d6f0d4267a1186e3a8ef464ea" TunnelMode="0" />
+						<LoopTunnel AutoIndex="True" Bounds="-5 322 13 10" Docking="Left" Id="bb18400c9d454f82b12f48481cb365e3" Terminals="o0=3da8f7aeb58c4d8cab7379a86bbb1691, i0=dd33d09d6f0d4267a1186e3a8ef464ea" TunnelMode="0" />
 						<LeftShiftRegister Bounds="-5 277 13 10" Docking="Left" Id="4fa45ba8dc3a416cb6d264124ae6b4a3" RightRegister="bfcd3d6812ea4fad983f4b50f4e5bd11" Terminals="o0=e8818487e734668854adc2b06ddf02d, i0=c630e89455ee44bb9f930933b85beb15" />
 						<RightShiftRegister Bounds="2129 277 13 10" Docking="Right" Id="bfcd3d6812ea4fad983f4b50f4e5bd11" Terminals="fd733579b25b4f768c228eaf96d00aa6=f6dc29c37f2947eab8b865accc0ec47f, 925f936ee83344ee817ac9a492c064bf=18b91dbfc84c462f87f056506113df82" />
 						<RightShiftRegister Bounds="2129 197 13 10" Docking="Right" Id="93ccf20021da4c248bae6b1b432ee2c9" Terminals="fd733579b25b4f768c228eaf96d00aa6, 925f936ee83344ee817ac9a492c064bf=7242544025e54cb9803190c82326cbd8" />
@@ -803,20 +803,7 @@
 					</ForLoop>
 					<Wire Id="abb37757c4404ac9b24aecc556dac4e9" Joints="N(364f2cd20b945b3b98b3cd296174897:8658906be2104ccea9277d62f881bb6d)|(4,612) N(3399c417b2a747b1ac994208a23e2f69:8658906be2104ccea9277d62f881bb6d)|(2563,612)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Sort1DArray Bounds="162 382 40 20" Id="1102348ebc304567b0f56031ecd9c1db" />
-					<Wire Id="78fbad01eef84d5aadae8a16e7337dc4" Joints="N(73ed50784f9e493a84dcab54d3c6907f:8658906be2104ccea9277d62f881bb6d)|(4,387) h(58) B(1) h(93) B(2) N(1102348ebc304567b0f56031ecd9c1db:array)|(162,387) B(2) v(20) h(57) v(-20) N(bb18400c9d454f82b12f48481cb365e3:o0)|(221,387) B(1) v(-45) N(2588bbbd3a764ce7ada1ef081c555a56:array)|(67,342)" xmlns="http://www.ni.com/PlatformFramework" />
-					<ArraySize Bounds="67 337 40 20" Id="2588bbbd3a764ce7ada1ef081c555a56" />
-					<Divide Bounds="127 347 30 30" Id="a303cfa9bb3f4d23b7c52d85e4a5e178" />
-					<Wire Id="746c8719047444f4977eee5a87fbd58f" Joints="N(2588bbbd3a764ce7ada1ef081c555a56:size(s\))|(107,352) N(a303cfa9bb3f4d23b7c52d85e4a5e178:x)|(127,352)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Literal Bounds="67 367 40 15" DataType="Double" Id="725fd33d3b494ba29ea968be6b2bad38" Label="6524accad96c45e29856298c2b390d1b" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>0x4018000000000000</p.Data>
-						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-					</Literal>
-					<NodeLabel AttachedTo="725fd33d3b494ba29ea968be6b2bad38" Bounds="67 349 30 15" Id="6524accad96c45e29856298c2b390d1b" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>y</p.Text>
-					</NodeLabel>
-					<InitializeArray Bounds="172 337 40 30" Id="69474a55d5d74f7b9ad6f46cd9e75ccd" Terminals="element=9a327b94243448159d2dac927c4c3dc3, outArray=e8818487e734668854adc2b06ddf02d, c0t0v=f8511577f4834fab975fd1b05e9b17ca" />
-					<Wire Id="f8511577f4834fab975fd1b05e9b17ca" Joints="N(a303cfa9bb3f4d23b7c52d85e4a5e178:x/y)|(157,362) N(69474a55d5d74f7b9ad6f46cd9e75ccd:c0t0v)|(172,362)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="6ac71c9049da49fcb4b610997d9f8d33" Joints="N(725fd33d3b494ba29ea968be6b2bad38:Out)|(107,372) h(5) v(-5) N(a303cfa9bb3f4d23b7c52d85e4a5e178:y)|(127,367)" xmlns="http://www.ni.com/PlatformFramework" />
+					<InitializeArray Bounds="172 337 40 30" Id="69474a55d5d74f7b9ad6f46cd9e75ccd" Terminals="element=9a327b94243448159d2dac927c4c3dc3, outArray=e8818487e734668854adc2b06ddf02d, c0t0v=de735d7c5734ce5a95428f0145c2950" />
 					<Wire Id="e8818487e734668854adc2b06ddf02d" Joints="N(69474a55d5d74f7b9ad6f46cd9e75ccd:outArray)|(212,342) N(4fa45ba8dc3a416cb6d264124ae6b4a3:o0)|(221,342)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="172 257 40 15" DataType="Int32" Id="e3291e6ed67d40ff9461069101bbb9bb" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>-1</p.Data>
@@ -827,7 +814,7 @@
 					<Wire Id="9a327b94243448159d2dac927c4c3dc3" Joints="N(9ecc2280ab6e4f22b889bde01d6e7303:Out)|(151,32) h(11) v(310) N(69474a55d5d74f7b9ad6f46cd9e75ccd:element)|(172,342)" xmlns="http://www.ni.com/PlatformFramework" />
 					<ForLoop Bounds="2405 360 121 71" DiagramId="d936e372692144508b6eef2cc521397d" Id="ce781cb8a34647ada9a1d5bc64b527fd">
 						<LoopIteration Bounds="5 40 15 15" Id="a65f56c930064fc294071bba81b4d34a" />
-						<PropertyNode Bounds="20 15 69 35" HasErrorTerminals="False" Id="6295125324d44da594ebc91febd8aee2" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+						<PropertyNode Bounds="20 15 69 35" HasErrorTerminals="False" Id="6295125324d44da594ebc91febd8aee2" InstanceDataType="@80c1b032b10b42f8ad6f8cf36826ebad" xmlns="http://www.ni.com/MocCommon">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="DashboardUI::TypeDefs::TagValueCluster.gtype" />
 							</p.TypeDefinitionTargets>
@@ -918,10 +905,22 @@
 					<NodeLabel AttachedTo="9ecc2280ab6e4f22b889bde01d6e7303" Bounds="17 10 89 14" Id="6f1847f54af648768a24d6779138c2b7" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>TagValueCluster</p.Text>
 					</NodeLabel>
+					<Wire Id="3da8f7aeb58c4d8cab7379a86bbb1691" Joints="N(73ed50784f9e493a84dcab54d3c6907f:8658906be2104ccea9277d62f881bb6d)|(4,387) h(151) B(1) N(1102348ebc304567b0f56031ecd9c1db:array)|(162,387) B(1) v(20) h(57) v(-20) N(bb18400c9d454f82b12f48481cb365e3:o0)|(221,387)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="102 357 40 15" DataType="Int32" Id="4a85a2da35224d05bf9e98766ed37d19" Label="1be73e1db59c41cd99f67e37950d765a" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>1</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
+					</Literal>
+					<NodeLabel AttachedTo="4a85a2da35224d05bf9e98766ed37d19" Bounds="102 339 30 15" Id="1be73e1db59c41cd99f67e37950d765a" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>dimension size</p.Text>
+					</NodeLabel>
+					<Wire Id="de735d7c5734ce5a95428f0145c2950" Joints="N(4a85a2da35224d05bf9e98766ed37d19:Out)|(142,362) N(69474a55d5d74f7b9ad6f46cd9e75ccd:c0t0v)|(172,362)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Comment Bounds="22 432 190 82" Id="7329ba96cf9f427b9b2dc73e3e9bbcfa" xmlns="http://www.ni.com/MocCommon">
+						<p.Text>"Removed get array size and\r\ndivide by 6. That code was \r\nto handle multiple targets, but\r\nthe logic was causing an issue\r\nand this VI ws not returning \r\nanything valid. "</p.Text>
+					</Comment>
 				</CaseStructure.Case>
 				<CaseStructure.Selector Bounds="-4 612 13 10" Docking="Left" Id="364f2cd20b945b3b98b3cd296174897" Terminals="ade3c208dd484ae88f053e73ceeae9ef=cc777a5f6a174556bbaf9c1d9ecd27e4, cdc1ae6c24ad4d83ad9027fc5955518a=fc5c5be783e04b6daabeaa7da831e1d8, 8658906be2104ccea9277d62f881bb6d=abb37757c4404ac9b24aecc556dac4e9" />
 				<CaseStructure.Tunnel Bounds="2568 612 13 10" Docking="Right" Id="3399c417b2a747b1ac994208a23e2f69" Terminals="ade3c208dd484ae88f053e73ceeae9ef=28405f4713994f0c93e4f07f2b91745a, cdc1ae6c24ad4d83ad9027fc5955518a=fc5c5be783e04b6daabeaa7da831e1d8, 8658906be2104ccea9277d62f881bb6d=abb37757c4404ac9b24aecc556dac4e9" />
-				<CaseStructure.Tunnel Bounds="-4 387 13 10" Docking="Left" Id="73ed50784f9e493a84dcab54d3c6907f" Terminals="ade3c208dd484ae88f053e73ceeae9ef=ee4601a8e36e44998df42af630e097ec, cdc1ae6c24ad4d83ad9027fc5955518a, 8658906be2104ccea9277d62f881bb6d=78fbad01eef84d5aadae8a16e7337dc4" />
+				<CaseStructure.Tunnel Bounds="-4 387 13 10" Docking="Left" Id="73ed50784f9e493a84dcab54d3c6907f" Terminals="ade3c208dd484ae88f053e73ceeae9ef=ee4601a8e36e44998df42af630e097ec, cdc1ae6c24ad4d83ad9027fc5955518a, 8658906be2104ccea9277d62f881bb6d=3da8f7aeb58c4d8cab7379a86bbb1691" />
 				<CaseStructure.Tunnel Bounds="2568 342 13 10" Docking="Right" Id="a6a91ee1210646a28ee64e837157ffd4" Terminals="ade3c208dd484ae88f053e73ceeae9ef=b70a7589975848d6bbb13dc4c11cb70b, cdc1ae6c24ad4d83ad9027fc5955518a=a3664c8defd4e588a1e649e6a4d13e6, 8658906be2104ccea9277d62f881bb6d=f6dc29c37f2947eab8b865accc0ec47f" />
 				<CaseStructure.Tunnel Bounds="2568 392 13 10" Docking="Right" Id="ac78b98c23fc4a13830c391a01b4800c" Terminals="ade3c208dd484ae88f053e73ceeae9ef=255a1b13591a414eb563b7e406a5ae4f, cdc1ae6c24ad4d83ad9027fc5955518a=75955fc0f7964c9d8144adbd9cc9d224, 8658906be2104ccea9277d62f881bb6d=e691f61f734a48189fb0b2b362cc7e77" />
 			</CaseStructure>
@@ -1036,7 +1035,7 @@
 					<p5:Label Height="[float]16" Id="e1d17f1ed59e4322a6c6a42906187574" LabelOwner="[UIModel]10fdeea3add0475699139b77c3605570" Left="[float]4" Text="[string]Logging State" Top="[float]316" Width="[float]73" />
 					<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="cc58f28fe62f46bbb3ccd2d5734da851" IsReadOnly="[bool]True" Label="[UIModel]be9472d79eda44a39b571d2c8ac89a85" Left="[float]4" TabIndex="[int]7" Text="{ClusterBinding FieldName=System\ Start\ Time}" Top="[float]388" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 					<p5:Label Height="[float]16" Id="be9472d79eda44a39b571d2c8ac89a85" LabelOwner="[UIModel]cc58f28fe62f46bbb3ccd2d5734da851" Left="[float]4" Text="[string]System Start Time" Top="[float]368" Width="[float]94" />
-					<p5:Label Height="[float]16" Id="e081b8e2e9f64582988d07f4de2fa843" IsVisualChild="[bool]False" LabelOwner="[UIModel]a390c01d11834ac3bcb419320a3e3c15" Left="[float]0" Text="[string]Tag" Top="[float]-20" Width="[float]18" />
+					<p5:Label Height="[float]16" Id="e081b8e2e9f64582988d07f4de2fa843" IsVisualChild="[bool]False" LabelOwner="[UIModel]a390c01d11834ac3bcb419320a3e3c15" Left="[float]6" Text="[string]Tag" Top="[float]-14" Width="[float]18" />
 				</Cluster>
 			</ArrayViewer>
 			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="b3be131cc39b4fb0ae2beef3e22958dc" LabelOwner="[UIModel]4ea86ef08a71468a8f8dab094a9b539a" Left="[float]1382" Text="[string]TagValueClusters" Top="[float]32" Width="[float]89" xmlns="http://www.ni.com/PanelCommon" />
